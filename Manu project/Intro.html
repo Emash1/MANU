@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 1</title>
+
+     <link rel="stylesheet" href="styledemo.css">
+    <style>
+
+      body{
+          background-color: orange;
+      }
+          h1{
+              background-color: blueviolet;
+          }
+
+         #Late{
+             background-color: brown;
+         }
+         .final{
+             background-color: aqua;
+         }
+
+             ul {
+
+
+
+
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+    </style>
+
+
+
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+     <h1>Hello World</h1>
+     <h1>Hello Kenya</h1>
+     <h6>Hello Africa</h6>
+
+<h1 id="Late">Paragraph 1</h1>
+     <!--First Paragraph-->
+<p style="color: black;background-color: yellow;font-style: italic;">
+    <mark>Napoleon Hill</mark> is the most famous conman you’ve probably never heard of.<br>
+    Born into poverty in rural Virginia at the end of the 19th century, Hill went on to write one of the most successful self-help books of the 20th century:<br>
+    Think and Grow Rich
+</p>
+     <hr>
+     <h2 class="final">Paragraph 2</h2>
+<p style="background-color: grey;color: white;border:5px solid black;padding: 10px;margin:40px; text-decoration: underline  ">
+     You can see the influence of Hill in everything from the success sermons of Tony Robbins to the crooked business dealings of Trump University. <br>
+    <i>In fact, you can draw a direct line to <ins>Donald Trump’s way of thinking</ins> </i>
+    </p>
+<!--attributes-tuesday evening class-->
+ <a href="https://www.netflix.com" style="color: red">Visit Netflix</a>
+<img src="dog.jpeg" alt="mydog">
+
+<table>
+    <tr>
+       <th>
+           Name
+       </th>
+
+         <th>
+           Contact
+       </th>
+         <th>
+           Email
+       </th>
+    </tr>
+    <tr>
+    <td>Emmanuel Mwangi</td>
+    <td>0769001810</td>
+    <td>emmanuelmuturi05@gmail.com</td>
+</tr>>
+
+<tr>
+     <td>Jack Robbinson</td><td>0764162512</td><td>jackrobbinson@gmail.com</td>
+</tr>
+
+
+</table>
+
+<h4>Groceries</h4>
+<ul>
+    <li>Tomatoes</li>
+    <li>Onions</li>
+  <li>Mangoes</li>
+</ul>
+
+<!--forms-->
+
+<form style="margin: auto;border-radius: 0px;padding: 20px;width: 30%;" action="savedata.py" method="post">
+    <table>
+        <tr>
+            <TD>
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname">
+            </TD>
+
+            <td>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname">
+            </td>
+        </tr>
+
+        <tr><td>
+    <label for="myemail">Email</label><br>
+    <input type="email" id="myemail">
+        </td>
+
+            <td>
+    <label for="age">Age</label><br>
+    <input type="number" id="age">
+        </td>
+
+        </tr>
+    <tr>
+        <td>
+        <label>Nationality</label>
+        <select>
+            <option>Kenyan</option>
+            <option>Ugandan</option>
+            <option>Tanzanian</option>
+            <option>Canadian</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <label>Disabled</label>
+        <input type="checkbox" name="disability">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Password</label><br>
+            <input type="password" name="pass">
+        </td>
+    </tr>
+    <tr>
+        <td><br>  <input type="submit" name="save data" VALUE="Saving"></td>
+    </tr>
+        </table>
+</form>
+
+
+</body>
+</html>

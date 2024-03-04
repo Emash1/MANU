@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body style="background-image: url('gucci.png');background-repeat: no-repeat;background-size: 80%">
+    <div class="container bg-info">
+        <h2>Paragraph 1</h2>
+        <p>Bootstrap employs a handful of important global styles and settings that you’ll need to be aware of when using it, all of which are almost exclusively geared towards the normalization of cross browser styles. Let’s dive in</p>
+    </div>
+    <div class="container-fluid bg-warning p-2">
+        <h2>Paragraph 2</h2>
+        <p>Bootstrap employs a handful of important global styles and settings that you’ll need to be aware of when using it, all of which are almost exclusively geared towards the normalization of cross browser styles. Let’s dive in</p>
+    </div>
+    <div class="row text-center mt-2">
+           <div class="col bg-danger"><h3>Android</h3></div>
+           <div class="col bg-success text-white"><h3>Python</h3></div>
+           <div class="col bg-secondary"><h3>HTML</h3></div>
+           <div class="col bg-primary"><h3>Java</h3></div>
+    </div>
+    <div class="row text-center mt-2">
+           <div class="col-lg-6 col-md-5 bg-danger"><h3>Kenya</h3></div>
+           <div class="col-lg-6 col-md-5 bg-success text-white"><h3>Uganda</h3></div>
+           <div class="col-lg-4 bg-secondary"><h3>Tanzania</h3></div>
+           <div class="col-lg-6 bg-primary"><h3>Sudan</h3></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container mt-2">
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="table-danger">
+                <td>Ethan</td>
+                <td>0715266889</td>
+                <td>ethano@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>0754726400</td>
+                <td>jackwanjohi@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Godwill</td>
+                <td>0720987881</td>
+                <td>godwillmwangi@gmail.com</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <form class="row form bg-info p-4">
+            <div class="col-md-6 row">
+                <div class="col-md-12">
+                <label>Name:</label>
+                <input type="text" name="fname" class="form-control">
+                </div>
+                <div class="col-md-12">
+                <label>Email:</label>
+                <input type="email" name="email" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6 row">
+                <div class="col-md-12">
+                <label>Phone:</label>
+                <input type="number" name="number" class="form-control">
+                </div>
+                <div class="col-md-12">
+                <label>Message:</label>
+                <input type="text" name="message" class="form-control">
+                 </div>
+            </div>
+
+                <div class="col-md-6">
+                <input type="submit" value="Save data" class="mt-2 btn btn-success">
+                </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>
